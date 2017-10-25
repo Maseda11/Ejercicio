@@ -25,6 +25,12 @@ public class JavaApplication5 {
             case 2:
                 ejercicio2(sc);
                 break;
+            case 3:
+                ejercicio3(sc);
+                break;
+            case 4:
+                ejercicio4(sc);
+                break;
             default:
                 System.out.println("opcion no valida");
 
