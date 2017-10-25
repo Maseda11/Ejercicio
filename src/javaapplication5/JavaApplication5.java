@@ -54,4 +54,8 @@ public class JavaApplication5 {
         }
     }
     
+    public static void ejercicio3(Scanner sc){
+        
+        
+    }
 }
