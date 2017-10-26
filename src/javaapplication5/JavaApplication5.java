@@ -107,7 +107,8 @@ public class JavaApplication5 {
         hor=num1*3600;
         min=num2*60;
         seg=num3;
-        int total = seg + min + hor;6
+        int total;
+        total = seg + min + hor;
         System.out.println(total + "s");  
     }
 
@@ -123,6 +124,33 @@ public class JavaApplication5 {
     }
 
     public static void ejercicio7(Scanner sc){
+    int n1,n2,n3,n4,n5,n6,n7,n8,n9,n10;
+    int max=10;
+    
+    System.out.println("Introduce el primer numero");
+    n1 = sc.nextInt();
+    System.out.println("Introduce el segundo numero");
+    n2 = sc.nextInt();
+    System.out.println("Introduce el tercer numero");
+    n3 = sc.nextInt();
+    System.out.println("Introduce el cuarto numero");
+    n4 = sc.nextInt();
+    System.out.println("Introduce el quinto numero");
+    n5 = sc.nextInt();
+    System.out.println("Introduce el sexto numero");
+    n6 = sc.nextInt();
+    System.out.println("Introduce el septimo numero");
+    n7 = sc.nextInt();
+    System.out.println("Introduce el octavo numero");
+    n8 = sc.nextInt();
+    System.out.println("Introduce el noveno numero");
+    n9 = sc.nextInt();
+    System.out.println("Introduce el decimo numero");
+    n10 = sc.nextInt();
+    
+    int mayor=0;
+    
+    
     }
     
     public static void ejercicio8(Scanner sc){
