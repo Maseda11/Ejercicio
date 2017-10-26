@@ -35,6 +35,9 @@ public class JavaApplication5 {
                 ejercicio5(sc);
                 break;
             case 6:
+                ejercicio6(sc);
+                break;
+            case 7:
                 ejercicio7(sc);
                 break;
             case 8:
@@ -94,10 +97,29 @@ public class JavaApplication5 {
     }
 
     private static void ejercicio5(Scanner sc) {
-        
+        int num,hor,min,seg;
+        System.out.println("ingrese las horas ");
+        int num1 = sc.nextInt();
+                System.out.println("ingrese los minutos ");
+        int num2 = sc.nextInt();
+        System.out.println("ingrese los segundos ");
+        int num3 = sc.nextInt();
+        hor=num1*3600;
+        min=num2*60;
+        seg=num3;
+        int total = seg + min + hor;6
+        System.out.println(total + "s");  
     }
 
-    public static void ejercicio6(Scanner sc){
+    public static void ejercicio6(Scanner sc) {
+        
+        int num,hor,min,seg;
+        System.out.println("ingrese los segundos ");
+        num=sc.nextInt();
+        hor=num/3600;
+        min=(num-(3600*hor))/60;
+        seg=num-((hor*3600)+(min*60));
+        System.out.println(hor+"h "+min+"m "+seg+"s");
     }
 
     public static void ejercicio7(Scanner sc){
@@ -109,6 +131,7 @@ public class JavaApplication5 {
     public static void ejercicio9(Scanner sc){
     
     }
+    
     public static void ejercicio10(Scanner sc){
     
     }
