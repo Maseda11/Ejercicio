@@ -29,7 +29,8 @@ public class JavaApplication5 {
                 ejercicio3(sc);
                 break;
             case 4:
-                ejercicio4(sc);
+                   ejercicio5(sc);
+             ejercicio4(sc);
                 break;
             case 5:
                 ejercicio5(sc);
@@ -173,6 +174,19 @@ public class JavaApplication5 {
     }
     
     public static void ejercicio13(Scanner sc){
-        
+     int a=0,i,n;
+         System.out.println("Introduce un numero");
+         n=sc.nextInt();
+         for(i=1;i<(n+1);i++){
+         if(n%i==0){
+             a++;
+            }
+         }
+         if(a!=2){
+              System.out.println("No es Primo");
+            }else{
+                System.out.println("Si es Primo");
+         }
+     }
+ 
     }
-}
