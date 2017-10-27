@@ -167,37 +167,38 @@ public class JavaApplication5 {
     }
 
     public static void ejercicio7(Scanner sc){
-    int n1,n2,n3,n4,n5,n6,n7,n8,n9,n10;
-    int max=10;
-    
-    System.out.println("Introduce el primer numero");
-    n1 = sc.nextInt();
-    System.out.println("Introduce el segundo numero");
-    n2 = sc.nextInt();
-    System.out.println("Introduce el tercer numero");
-    n3 = sc.nextInt();
-    System.out.println("Introduce el cuarto numero");
-    n4 = sc.nextInt();
-    System.out.println("Introduce el quinto numero");
-    n5 = sc.nextInt();
-    System.out.println("Introduce el sexto numero");
-    n6 = sc.nextInt();
-    System.out.println("Introduce el septimo numero");
-    n7 = sc.nextInt();
-    System.out.println("Introduce el octavo numero");
-    n8 = sc.nextInt();
-    System.out.println("Introduce el noveno numero");
-    n9 = sc.nextInt();
-    System.out.println("Introduce el decimo numero");
-    n10 = sc.nextInt();
-    
-    int mayor=0;
-    
-    
+     int mayor = 0;
+        int menor = 0;
+        for(int i=10; i>0; i--){
+            System.out.println("Introduce numero");
+            int num = sc.nextInt();
+            if (i > 9){
+                mayor= num;
+                menor= num;
+            }
+            else if (i < 10){
+                 if (num > mayor){
+                     mayor = num;}
+                 else if (num < menor){
+                      menor = num;}
+            }
+        }
+    System.out.println("el numero mayor es " + mayor + " y el menor es " + menor) ;
     }
     
     public static void ejercicio8(Scanner sc){
+    Scanner leer= new Scanner(System.in);
+    int n,fact = 1,i;
+    System.out.println("Dime un numero: ");
+    n = leer.nextInt();
+
+    for (i=n;i>=1;i--)
+    {
+    fact=fact*i;
     }
+    System.out.println("el factorial de tu numero es -> "+ fact);
+
+}
 
     public static void ejercicio9(Scanner sc){
     int a,b,c,Mayor,Medio,Menor;
