@@ -229,7 +229,45 @@ public class JavaApplication5 {
         }
     //codigo ejercicio 9
     public static void ejercicio10(Scanner sc){
-    
+    int nota=0;
+        System.out.println("Introduce la nota");
+        nota=sc.nextInt();
+        switch (nota) {
+            case 0:
+                System.out.println("El numero es CERO");
+                break;
+            case 1:
+                System.out.println("El numero es UNO");
+                break;
+            case 2:
+                System.out.println("El numero es DOS");
+                break;
+            case 3:
+                System.out.println("El numero es TRES");
+                break;
+            case 4:
+               System.out.println("El numero es CUATRO");
+                break;
+            case 5:
+                System.out.println("El numero es CINCO");
+                break;
+            case 6: 
+                System.out.println("El numero es SEIS");
+                break;
+            case 7:
+                System.out.println("El numero es SIETE");
+                break;
+            case 8: 
+                System.out.println("El numero es OCHO");
+                break;
+            case 9:
+                System.out.println("El numero es NUEVE");
+                break;
+            case 10: 
+                System.out.println("El numero es DIEZ");
+                break;
+            default: System.out.println("Error al introducir la nota");
+        } 
     }
     //codigo ejercicio 10
     public static void ejercicio11(Scanner sc){
