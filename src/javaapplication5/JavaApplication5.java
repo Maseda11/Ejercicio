@@ -79,7 +79,7 @@ public class JavaApplication5 {
          System.out.println(i);
       }
     }
-        //codigo ejercicio 2
+    //codigo ejercicio 2
     public static void ejercicio2(Scanner sc){
         int resul;
         for (int i=1; i<=20; i++) {
@@ -87,7 +87,7 @@ public class JavaApplication5 {
             System.out.println(resul);
         }
     }
-    
+    //codigo ejercicio 3
     public static void ejercicio3(Scanner sc){
        System.out.println("Introduce numero 1");
             int num1 = sc.nextInt();
@@ -123,7 +123,7 @@ public class JavaApplication5 {
     double media = suma /15;
     System.out.println ("La media es"+media);
     }  
-
+    //codigo ejercicio 4
     private static void ejercicio4(Scanner sc) {
       System.out.println ("Introduce valores");
     int numval = sc.nextInt();
@@ -138,7 +138,7 @@ public class JavaApplication5 {
     int media= (sumatorio/numval);
     System.out.println("La media es " +media);     
     }
-
+    //codigo ejercicio 5
     private static void ejercicio5(Scanner sc) {
         int num,hor,min,seg;
         System.out.println("ingrese las horas ");
@@ -202,11 +202,11 @@ public class JavaApplication5 {
     public static void ejercicio9(Scanner sc){
     int a,b,c,Mayor,Medio,Menor;
 
-        System.out.println("Ingresa el primer numero");
+        System.out.println("Introduce el primer numero");
         a=sc.nextInt();
-        System.out.println("Ingresa el segundo numero");
+        System.out.println("Introduce el segundo numero");
         b=sc.nextInt();
-        System.out.println("ingresa el tercer numeero");
+        System.out.println("Introduce el tercer numero");
         c=sc.nextInt();
 
         if(a>b&&a>c)
@@ -225,7 +225,6 @@ public class JavaApplication5 {
         else
         Menor=c;
         Medio=(a+b+c)-(Mayor+Menor);
-        System.out.println("");
         System.out.println("el de los numeros ingresados es: ");
         System.out.println(Mayor+" "+Medio+" "+Menor);
         }
@@ -235,7 +234,7 @@ public class JavaApplication5 {
     }
     
     public static void ejercicio11(Scanner sc){
-     int nota=0;
+        int nota=0;
         System.out.println("Introduce la nota");
         nota=sc.nextInt();
         switch (nota) {
@@ -265,12 +264,12 @@ public class JavaApplication5 {
     }
     
     public static void ejercicio12(Scanner sc){
-    int alumnos;
-    double nota = 0;
-    double aprobados = 0;
-    double suspensos = 0;
-    double media;
-    double suma = 0;
+        int alumnos;
+        double nota = 0;
+        double aprobados = 0;
+        double suspensos = 0;
+        double media;
+        double suma = 0;
     
     System.out.println("Introduce el numero de alumnos");
     alumnos = sc.nextInt();
