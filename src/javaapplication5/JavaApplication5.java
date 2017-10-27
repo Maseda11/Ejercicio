@@ -89,12 +89,54 @@ public class JavaApplication5 {
     }
     
     public static void ejercicio3(Scanner sc){
-        
-        
-    }
+       System.out.println("Introduce numero 1");
+            int num1 = sc.nextInt();
+    System.out.println("Introduce numero 2");
+            int num2 = sc.nextInt();
+    System.out.println("Introduce numero 3");
+            int num3 = sc.nextInt();
+    System.out.println("Introduce numero 4");         
+            int num4 = sc.nextInt();
+    System.out.println("Introduce numero 5");        
+            int num5 = sc.nextInt();
+    System.out.println("Introduce numero 6");
+            int num6 = sc.nextInt();
+    System.out.println("Introduce numero 7");
+            int num7 = sc.nextInt();
+    System.out.println("Introduce numero 8");
+            int num8 = sc.nextInt();        
+    System.out.println("Introduce numero 9");
+            int num9 = sc.nextInt();
+    System.out.println("Introduce numero 10");
+            int num10 = sc.nextInt();   
+    System.out.println("Introduce numero 11");
+            int num11 = sc.nextInt();        
+    System.out.println("Introduce numero 12");
+            int num12 = sc.nextInt();        
+    System.out.println("Introduce numero 13");
+            int num13 = sc.nextInt();
+    System.out.println("Introduce numero 14");
+            int num14 = sc.nextInt(); 
+    System.out.println("Introduce numero 15");
+            int num15 = sc.nextInt();        
+    double suma = num1+num2+num3+num4+num5+num6+num6+num7+num8+num9+num10+num11+num12+num13+num14+num15;
+    double media = suma /15;
+    System.out.println ("La media es"+media);
+    }  
 
     private static void ejercicio4(Scanner sc) {
-        
+      System.out.println ("Introduce valores");
+    int numval = sc.nextInt();
+    int contador = 0;
+    int sumatorio = 0;
+    do {
+        contador ++;
+        System.out.println("Introduce un numero");
+        int nuevonum = sc.nextInt();
+        sumatorio = sumatorio + nuevonum;
+    }while (contador != numval);
+    int media= (sumatorio/numval);
+    System.out.println("La media es " +media);     
     }
 
     private static void ejercicio5(Scanner sc) {
@@ -158,15 +200,68 @@ public class JavaApplication5 {
     }
 
     public static void ejercicio9(Scanner sc){
-    
-    }
+    int a,b,c,Mayor,Medio,Menor;
+
+        System.out.println("Ingresa el primer numero");
+        a=sc.nextInt();
+        System.out.println("Ingresa el segundo numero");
+        b=sc.nextInt();
+        System.out.println("ingresa el tercer numeero");
+        c=sc.nextInt();
+
+        if(a>b&&a>c)
+            Mayor=a;
+        else
+            if(b>a&&b>c)
+            Mayor=b;
+        else
+            Mayor=c;
+
+        if(a<b&&a<c)
+        Menor=a;
+        else
+        if(b<a&&b<c)
+        Menor=b;
+        else
+        Menor=c;
+        Medio=(a+b+c)-(Mayor+Menor);
+        System.out.println("");
+        System.out.println("el de los numeros ingresados es: ");
+        System.out.println(Mayor+" "+Medio+" "+Menor);
+        }
     
     public static void ejercicio10(Scanner sc){
     
     }
     
     public static void ejercicio11(Scanner sc){
-        
+     int nota=0;
+        System.out.println("Introduce la nota");
+        nota=sc.nextInt();
+        switch (nota) {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+                System.out.println("Suspenso"); 
+                break;
+            case 5:
+                System.out.println("Suficiente");
+                break;
+            case 6: 
+                System.out.println("Bien"); 
+                break;
+            case 7:
+            case 8: 
+                System.out.println("Notable"); 
+                break;
+            case 9:
+            case 10: 
+                System.out.println("Sobresaliente"); 
+                break;
+            default: System.out.println("Error al introducir la nota");
+        }   
     }
     
     public static void ejercicio12(Scanner sc){
