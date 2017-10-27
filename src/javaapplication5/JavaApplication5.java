@@ -170,9 +170,33 @@ public class JavaApplication5 {
     }
     
     public static void ejercicio12(Scanner sc){
+    int alumnos;
+    double nota = 0;
+    double aprobados = 0;
+    double suspensos = 0;
+    double media;
+    double suma = 0;
+    
+    System.out.println("Introduce el numero de alumnos");
+    alumnos = sc.nextInt();
+    
+    for (int i=0; i<alumnos; i++){
+        System.out.println("Introduce la nota: ");
+        nota = sc.nextInt();
+        suma = suma + nota;
+        if (nota < 5){
+          suspensos++;
+        } else {
+            aprobados++;
+        }
         
     }
-    
+    media = suma / alumnos;
+    System.out.println("La media de las notas es: " + media);
+    System.out.println("El numero de aprobados es: " + aprobados);
+    System.out.println("El numero de suspensos es: " + suspensos);
+}   
+      
     public static void ejercicio13(Scanner sc){
      int a=0,i,n;
          System.out.println("Introduce un numero");
