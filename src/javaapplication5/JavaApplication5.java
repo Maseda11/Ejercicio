@@ -65,8 +65,6 @@ public class JavaApplication5 {
         }
     }
     
-    
-    //Ejercicio 1
     public static void ejercicio1(Scanner sc){
      int num=0;
      int num2=0;
@@ -79,7 +77,7 @@ public class JavaApplication5 {
          System.out.println(i);
       }
     }
-    //codigo ejercicio 2
+    //codigo ejercicio 1
     public static void ejercicio2(Scanner sc){
         int resul;
         for (int i=1; i<=20; i++) {
@@ -87,7 +85,7 @@ public class JavaApplication5 {
             System.out.println(resul);
         }
     }
-    //codigo ejercicio 3
+    //codigo ejercicio 2
     public static void ejercicio3(Scanner sc){
        System.out.println("Introduce numero 1");
             int num1 = sc.nextInt();
@@ -123,7 +121,7 @@ public class JavaApplication5 {
     double media = suma /15;
     System.out.println ("La media es"+media);
     }  
-    //codigo ejercicio 4
+    //codigo ejercicio 3
     private static void ejercicio4(Scanner sc) {
       System.out.println ("Introduce valores");
     int numval = sc.nextInt();
@@ -138,7 +136,7 @@ public class JavaApplication5 {
     int media= (sumatorio/numval);
     System.out.println("La media es " +media);     
     }
-    //codigo ejercicio 5
+    //codigo ejercicio 4
     private static void ejercicio5(Scanner sc) {
         int num,hor,min,seg;
         System.out.println("ingrese las horas ");
@@ -154,7 +152,7 @@ public class JavaApplication5 {
         total = seg + min + hor;
         System.out.println(total + "s");  
     }
-
+    //codigo ejercicio 5
     public static void ejercicio6(Scanner sc) {
         
         int num,hor,min,seg;
@@ -165,7 +163,7 @@ public class JavaApplication5 {
         seg=num-((hor*3600)+(min*60));
         System.out.println(hor+"h "+min+"m "+seg+"s");
     }
-
+    //codigo ejercicio 6
     public static void ejercicio7(Scanner sc){
      int mayor = 0;
         int menor = 0;
@@ -185,7 +183,7 @@ public class JavaApplication5 {
         }
     System.out.println("el numero mayor es " + mayor + " y el menor es " + menor) ;
     }
-    
+    //codigo ejercicio 7
     public static void ejercicio8(Scanner sc){
     Scanner leer= new Scanner(System.in);
     int n,fact = 1,i;
@@ -199,7 +197,7 @@ public class JavaApplication5 {
     System.out.println("el factorial de tu numero es -> "+ fact);
 
 }
-
+    //codigo ejercicio 8
     public static void ejercicio9(Scanner sc){
     int a,b,c,Mayor,Medio,Menor;
 
@@ -229,11 +227,11 @@ public class JavaApplication5 {
         System.out.println("el de los numeros ingresados es: ");
         System.out.println(Mayor+" "+Medio+" "+Menor);
         }
-    
+    //codigo ejercicio 9
     public static void ejercicio10(Scanner sc){
     
     }
-    
+    //codigo ejercicio 10
     public static void ejercicio11(Scanner sc){
         int nota=0;
         System.out.println("Introduce la nota");
@@ -263,7 +261,7 @@ public class JavaApplication5 {
             default: System.out.println("Error al introducir la nota");
         }   
     }
-    
+    //codigo ejercicio 11
     public static void ejercicio12(Scanner sc){
         int alumnos;
         double nota = 0;
@@ -291,7 +289,7 @@ public class JavaApplication5 {
     System.out.println("El numero de aprobados es: " + aprobados);
     System.out.println("El numero de suspensos es: " + suspensos);
 }   
-      
+    //codigo ejercicio 12
     public static void ejercicio13(Scanner sc){
      int a=0,i,n;
          System.out.println("Introduce un numero");
