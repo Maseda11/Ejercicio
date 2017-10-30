@@ -329,19 +329,22 @@ public class JavaApplication5 {
 }   
     //codigo ejercicio 12
     public static void ejercicio13(Scanner sc){
-     int a=0,i,n;
-         System.out.println("Introduce un numero");
-         n=sc.nextInt();
-         for(i=1;i<(n+1);i++){
-         if(n%i==0){
-             a++;
+    System.out.println("Introduce el numero");
+        int num = sc.nextInt();
+        boolean primos;
+        int x;
+        int y;
+        for (x=2; x <=num; x++){
+            primos= true;
+    
+               for(y=2; y<x; y++){
+                    if (x%y==0){
+                        primos=false;
+                }
             }
-         }
-         if(a!=2){
-              System.out.println("No es Primo");
-            }else{
-                System.out.println("Si es Primo");
-         }
-     }
- 
+               if (primos){
+                   System.out.println(+x+"/n");
+               }
+        }
     }
+}
